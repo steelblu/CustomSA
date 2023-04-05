@@ -96,7 +96,7 @@
             "model": "gpt-3.5-turbo",
             "prompt": prompt,
             "max_tokens": parseInt(max_tokens),
-            "top_p": 0.2,
+            "top_p": 0.3,
             "n": 1,
             "temperature": 0.3
           })
