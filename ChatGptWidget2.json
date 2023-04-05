@@ -1,13 +1,13 @@
 {
     "id": "com.steelblu.sap.chatgptwidget",
     "version": "1.0.2",
-    "name": "ChatGPT Widget",
+    "name": "ChatGPT Widget 2",
     "description": "ChatGPT Custom Widget for SAP Analytics Cloud, To make your application more useful and effective.",
     "newInstancePrefix": "ChatGptWidget",
     "vendor": "Rohit Chouhan / dfocus",
     "eula": "",
     "license": "apache",
-    "icon": "https:\/\/raw.githubusercontent.com\/steelblu\/CUSTOMSA\/main\/icon.png",
+    "icon": "https:\/\/raw.githubusercontent.com\/steelblu\/CUSTOMSA\/main\/icon2.png",
     "webcomponents": [
         {
             "kind": "main",
