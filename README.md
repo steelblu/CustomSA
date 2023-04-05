@@ -1,2 +1,0 @@
-# CustomSA
-connect to GPT
