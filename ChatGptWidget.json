@@ -12,7 +12,7 @@
         {
             "kind": "main",
             "tag": "com-rohitchouhan-sap-chatgptwidget",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/steelblu\/CustomSA\/ChatGptWidget.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/steelblu\/CustomSA@latest\/ChatGptWidget.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
