@@ -106,7 +106,7 @@
         } = await response.json();
         const generatedTextValue = choices[0].text;
         generatedText.value = generatedTextValue.replace(/^\n+/, '');
-        console.console.log(generatedText.value);
+        console.log(generatedText.value);
       });
     }
     onCustomWidgetBeforeUpdate(changedProperties) {
