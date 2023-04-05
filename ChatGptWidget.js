@@ -93,11 +93,12 @@
             "Authorization": "Bearer " + apiKey
           },
           body: JSON.stringify({
-            "model": "text-davinci-002",
+            "model": "gpt-3.5-turbo",
             "prompt": prompt,
             "max_tokens": parseInt(max_tokens),
+            "top_p": 0.2,
             "n": 1,
-            "temperature": 0.5
+            "temperature": 0.3
           })
         });
         const {
@@ -105,6 +106,7 @@
         } = await response.json();
         const generatedTextValue = choices[0].text;
         generatedText.value = generatedTextValue.replace(/^\n+/, '');
+        console.console.log(generatedText.value);
       });
     }
     onCustomWidgetBeforeUpdate(changedProperties) {
